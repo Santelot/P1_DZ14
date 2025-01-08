@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook - Botón Mágico de Ayuda</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { width: 95%; margin: auto; }
+        .dropdown { margin-bottom: 20px; }
+        .time-title { font-size: 1.2em; font-weight: bold; }
+        .activity { margin-bottom: 30px; }
+        .banner { background-color: #4CAF50; color: white; padding: 10px; cursor: pointer; }
+        .title { font-weight: bold; }
+        .subtitle { font-style: italic; }
+        .content { display: none; padding: 10px; border: 1px solid #ddd; }
+        table { width: 100%; border-collapse: collapse; }
+        td { padding: 8px; border: 1px solid #ddd; vertical-align: top; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Playbook - Botón Mágico de Ayuda</h1>
+
+        <!-- Actividad 0 -->
+        <div id="activity-0" class="activity">
+            <div class="banner" onclick="toggleContent('revision_mision')">
+                <div class="title">📚 Actividad 0: Revisión de la Misión ⏰ Tiempo: 0 minutos</div>
+                <div class="subtitle">Recordar el propósito de la misión del día.</div>
+            </div>
+            <div id="revision_mision" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1:</strong> Revisar la diapositiva 1 con el objetivo de preparar la misión del día.</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> N/A</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 1 -->
+        <div id="activity-1" class="activity">
+            <div class="banner" onclick="toggleContent('saludo_ritual')">
+                <div class="title">🎉 Actividad 1: Saludo y Ritual Gnius Club ⏰ Tiempo: 3 minutos</div>
+                <div class="subtitle">Dar la bienvenida y preparar el ambiente.</div>
+            </div>
+            <div id="saludo_ritual" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (0.5 minutos):</strong> Revisar diapositiva 2 "Logotipo de Gnius Club".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Bienvenidos al Gnius Club! Hoy aprenderemos a pedir ayuda al usar internet. ¿Están listos para activar el 'Botón Mágico de Ayuda'? ¡Empecemos esta misión!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (1 minuto):</strong> Revisar diapositiva 3 "¿Cómo te sientes hoy?".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Antes de comenzar, expresemos cómo nos sentimos: si están llenos de energía, choquen las palmas con un compañero y digan '¡Listo para aprender!'; si están tranquilos, cubran su rostro con las manos por unos segundos, respiren profundo y digan 'Preparado y en calma'. ¿Qué eligen hacer?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (0.5 minutos):</strong> Revisar diapositiva 4 "Gracias por estar aquí".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Agradezcamos estar juntos y listos para aprender cómo tomar decisiones seguras en línea. ¡Hoy activaremos nuestro 'Botón Mágico de Ayuda'!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (1 minuto):</strong> Revisar diapositiva 5 "Objetivos de la Misión".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Hoy aprenderemos: 1. Cuándo pedir ayuda al usar internet. 2. La importancia de hablar con un adulto. 3. Reconocer situaciones en las que necesitamos apoyo."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 2 -->
+        <div id="activity-2" class="activity">
+            <div class="banner" onclick="toggleContent('innovacion_dia')">
+                <div class="title">💡 Actividad 2: Innovación del Día ⏰ Tiempo: 5 minutos</div>
+                <div class="subtitle">Explorar cómo pedir ayuda en situaciones en línea.</div>
+            </div>
+            <div id="innovacion_dia" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 6 "Innovación del Día".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Hoy veremos un video que nos muestra qué hacer si enfrentamos algo en internet que no nos gusta, como burlas o situaciones incómodas. Es importante saber pedir ayuda a un adulto en estas situaciones. ¡Pongan mucha atención!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (3 minutos):</strong> Revisar diapositiva 7 "Aprende a Pedir Ayuda".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Vamos a observar el video 'Aprende a pedir ayuda al usar internet'. Mientras lo ven, reflexionen: ¿Por qué creen que es importante hablar con un adulto en situaciones incómodas?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (1 minuto):</strong> Revisar diapositiva 8 "Reflexión de la Innovación".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Después de ver el video, ¿qué creen que pueden hacer si encuentran una situación incómoda en línea, como burlas o mensajes que no les agradan? Compartan cómo pedirían ayuda a un adulto."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 3 -->
+        <div id="activity-3" class="activity">
+            <div class="banner" onclick="toggleContent('brain_gym')">
+                <div class="title">Ð Actividad 3: Brain Gym ⏳ Tiempo: 8 minutos</div>
+                <div class="subtitle">Practicar estrategias de ayuda en línea.</div>
+            </div>
+            <div id="brain_gym" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (0.5 minutos):</strong> Revisar diapositiva 9 "Brain Gym".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Es momento de usar sus dispositivos para ingresar a la plataforma. Escriban su usuario y contraseña con cuidado para evitar errores. ¡Vamos a comenzar!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (0.5 minutos):</strong> Revisar diapositiva 10 "Log In".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Una vez dentro, sigan las instrucciones de la plataforma para acceder a las actividades asignadas. ¡Prepárense para aprender de manera interactiva!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (1 minuto):</strong> Revisar diapositiva 11 "Realizar: Quest y Challenge".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "En la plataforma encontrarán actividades diseñadas para practicar cómo identificar cuándo pedir ayuda en situaciones incómodas en internet. ¡Manos a la obra!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (5 minutos):</strong> Revisar diapositiva 12 "Temporizador: 5 minutos".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> N/A</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 5 (1 minuto):</strong> Revisar diapositiva 13 "Pedir Ayuda de un Adulto".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Reflexionemos sobre lo aprendido: ¿Qué situaciones identificaron en las actividades en las que pedirían ayuda? ¿Cómo les ayudaría un adulto en esos casos?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 6 (1 minuto):</strong> Revisar diapositiva 14 "Objetivos Alcanzados".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Gran trabajo! Hoy aprendimos a reconocer cuándo debemos pedir ayuda a un adulto en línea. Recuerden aplicar lo aprendido en sus interacciones digitales."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 4 -->
+        <div id="activity-4" class="activity">
+            <div class="banner" onclick="toggleContent('state_change')">
+                <div class="title">☄️ Actividad 4: State Change ⏳ Tiempo: 3 minutos</div>
+                <div class="subtitle">Recargar energía y practicar trabajo en equipo.</div>
+            </div>
+            <div id="state_change" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 15 "Brain Vitamin".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Antes de continuar, tomemos un momento para recargar energía y concentrarnos. Esta actividad nos ayudará a mejorar la coordinación, el trabajo en equipo y a despejar la mente. ¡Comencemos!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (2 minutos):</strong> Revisar diapositiva 16 "Pelota Imaginaria".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Imaginen que tienen una pelota invisible. Pásenla a un compañero manteniendo su dirección y velocidad, sin dejarla caer. Cuando terminemos, regresaremos a nuestros lugares para seguir trabajando."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 5 -->
+        <div id="activity-5" class="activity">
+            <div class="banner" onclick="toggleContent('team_gnius')">
+                <div class="title">🔰 Actividad 5: Team Gnius ⏳ Tiempo: 3.5 minutos</div>
+                <div class="subtitle">Prepararse en equipos para el desafío.</div>
+            </div>
+            <div id="team_gnius" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 17 "Team Gnius".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Es momento de organizarnos en equipos para prepararnos para la actividad de 'El Botón Mágico de Ayuda'. Presten atención a las instrucciones para que todo salga perfecto."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (0.5 minutos):</strong> Revisar diapositiva 18 "Formación de equipos".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "En los próximos 30 segundos, formen equipos de dos personas. Recuerden que trabajarán juntos para analizar situaciones en línea y decidir cuándo es necesario pedir ayuda a un adulto."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (1 minuto):</strong> Revisar diapositiva 19 "Distribución de materiales".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Un integrante de cada equipo, por favor, acérquese a recoger una Magic Tablet. En ella, dibujarán su propio 'Botón de Ayuda' y lo presionarán en cada situación que se les presente."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (1 minuto):</strong> Revisar diapositiva 20 "Preparación para el desafío".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora que tienen sus Magic Tablets, diseñarán su 'Botón de Ayuda'. Deberán estar atentos a las situaciones que se proyectarán. Cuando identifiquen una situación en la que sea necesario pedir ayuda, simulen presionar su botón."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+          <!-- Actividad 6 -->
+        <div id="activity-6" class="activity">
+            <div class="banner" onclick="toggleContent('challenge')">
+                <div class="title">⚔️ Actividad 6: Challenge ⏳ Tiempo: 20 minutos</div>
+                <div class="subtitle">Evaluar situaciones y activar el 'Botón de Ayuda'.</div>
+            </div>
+            <div id="challenge" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 21 "Challenge".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Es momento de enfrentar el desafío! En equipos, analizarán las situaciones que se presentarán y decidirán cuándo es apropiado activar el 'Botón Mágico de Ayuda'."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (3 minutos):</strong> Revisar diapositiva 22 "Instrucciones para Evaluar Situaciones en línea".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Observen con atención cada situación proyectada. Antes de presionar su 'Botón de Ayuda' en la Magic Tablet, respondan en equipo: ¿Qué harían si vieran esto? ¿Pedirían ayuda a un adulto? ¿Por qué?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (2 minutos):</strong> Revisar diapositivas 23 y 24 "Análisis de situaciones".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Vamos a resolver cada situación juntos. Analicemos en equipo y discutamos las mejores acciones a tomar en cada caso."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (10 minutos):</strong> Revisar diapositiva 25 "Temporizador: 10 minutos".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> N/A</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 5 (0.5 minutos):</strong> Revisar diapositiva 26 "Game Over".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Tiempo terminado! Ahora vamos a compartir nuestras decisiones y reflexionar sobre las acciones que tomaríamos en cada situación."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 6 (3 minutos):</strong> Revisar diapositiva 27 "Compartir resultados".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Cada equipo compartirá una de las situaciones que analizaron. Expliquen por qué decidieron activar o no el 'Botón de Ayuda' y cómo actuarían en esa situación."</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 7 (1 minuto):</strong> Revisar diapositiva 28 "Reflexión y cierre".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Hoy aprendimos a identificar cuándo es necesario pedir ayuda en línea. Reflexionemos: ¿Cómo podemos aplicar esto en nuestra vida digital diaria?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 8 (0.5 minutos):</strong> Revisar diapositiva 29 "Objetivos Alcanzados".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "¡Gran trabajo! Ahora sabemos cómo reconocer situaciones en las que debemos pedir ayuda a un adulto en línea. Recuerden aplicar este conocimiento para mantenerse seguros."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 7 -->
+        <div id="activity-7" class="activity">
+            <div class="banner" onclick="toggleContent('easter_egg')">
+                <div class="title">🥚 Actividad 7: Easter Egg ⏳ Tiempo: 3 minutos</div>
+                <div class="subtitle">Evaluar y reflexionar sobre decisiones en línea.</div>
+            </div>
+            <div id="easter_egg" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (0.5 minutos):</strong> Revisar diapositiva 30 "Easter Egg".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Ahora vamos a resolver una pregunta especial relacionada con cómo manejar situaciones en línea. ¡Presten atención y piensen en la mejor respuesta!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (1 minuto):</strong> Revisar diapositiva 31 "Pregunta".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "La pregunta es: ¿Cuándo deberías pedir ayuda a un adulto mientras usas internet? 1. Cuando encuentras algo nuevo o raro, como un juego o video que no conoces. 2. Cuando ya lo conoces y no necesitas preguntar. ¿Qué harías?"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 3 (0.5 minutos):</strong> Observar la participación de los estudiantes.</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "No digan la respuesta en voz alta. Levanten la mano cuando estén listos, y en voz baja díganme su respuesta cuando me acerque a ustedes. ¡Espero escucharlos pronto!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 4 (1 minuto):</strong> Revisar diapositiva 32 "Respuesta Correcta".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "La respuesta correcta es la opción 1: Cuando encuentras algo nuevo o raro, como un juego o video que no conoces. Es importante pedir ayuda a un adulto en estas situaciones para mantenerse seguros en línea. ¡Bien hecho!"</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Actividad 8 -->
+        <div id="activity-8" class="activity">
+            <div class="banner" onclick="toggleContent('honor_dojo')">
+                <div class="title">🎖️ Actividad 8: Honor de Dojo ⏳ Tiempo: 1.5 minutos</div>
+                <div class="subtitle">Reconocer y celebrar logros de los estudiantes.</div>
+            </div>
+            <div id="honor_dojo" class="content">
+                <table>
+                    <tr>
+                        <td><strong>PASO 1 (1 minuto):</strong> Revisar diapositiva 33 "Reconocimiento".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Hoy han demostrado ser exploradores digitales responsables. Reflexionamos sobre cómo identificar y manejar situaciones incómodas en línea. ¡Felicidades por su dedicación y esfuerzo!"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PASO 2 (0.5 minutos):</strong> Revisar diapositiva 34 "Honor de Dojo".</td>
+                        <td><strong>DIÁLOGO SUGERIDO:</strong> "Recuerden que protegerse en línea es una muestra de sabiduría y cuidado. Sigamos aplicando lo que aprendimos hoy para mantenernos seguros y tomar buenas decisiones digitales."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
